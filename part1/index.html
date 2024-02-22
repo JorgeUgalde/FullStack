@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script>
+  let a, b, rest;
+    [a, b] = [10, 20];
+
+    console.log(a);
+    // Expected output: 10
+
+    console.log(b);
+    // Expected output: 20
+
+    [a, ...b] = [10, 20, 30, 40, 50];
+
+    console.log(b);
+    // Expected output: Array [30, 40, 50]
+    </script>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
